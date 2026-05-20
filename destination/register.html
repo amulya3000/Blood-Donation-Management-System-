@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register — BDMS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="route-public">
+    <nav class="navbar">
+        <a href="index.html" class="nav-brand"><span class="brand-icon"><i class="fa-solid fa-droplet"></i></span> BDMS</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="search.html">Find Donors</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html" class="btn btn-outline btn-sm">Sign In</a>
+        </div>
+    </nav>
+
+    <div class="auth-container">
+        <div class="auth-layout">
+            <aside class="auth-visual">
+                <div>
+                    <div class="hero-kicker">Join BDMS</div>
+                    <h1>Become a donor.</h1>
+                    <p>Register and stay available in a trusted emergency blood network.</p>
+                </div>
+            </aside>
+            <div class="auth-form">
+                <h2>Create Account</h2>
+                <p class="auth-subtitle">Register as a blood donor</p>
+                <form class="form-grid">
+                    <div class="form-group"><label class="form-label">Full Name</label><input class="form-control" type="text" required></div>
+                    <div class="form-group"><label class="form-label">Email</label><input class="form-control" type="email" required></div>
+                    <div class="form-group"><label class="form-label">Phone</label><input class="form-control" type="text" required></div>
+                    <div class="form-group"><label class="form-label">Blood Type</label><select class="form-control"><option>A+</option><option>A-</option><option>B+</option><option>B-</option><option>AB+</option><option>AB-</option><option>O+</option><option>O-</option></select></div>
+                    <div class="form-group full-width"><button type="submit" class="btn btn-primary">Complete Registration</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div class="footer-col"><h4><i class="fa-solid fa-droplet" style="color:var(--red);"></i> BDMS</h4><p>Blood Donation Management System. Connecting donors with patients across Nepal.</p></div>
+            <div class="footer-col"><h4>Quick Links</h4><a href="index.html">Home</a><a href="search.html">Find Donors</a><a href="register.html">Become a Donor</a></div>
+            <div class="footer-col"><h4>Account</h4><a href="login.html">Sign In</a><a href="register.html">Register</a><a href="contact.html">Contact</a></div>
+            <div class="footer-col"><h4>Contact</h4><p><i class="fa-solid fa-envelope"></i> support@bdms.org.np</p><p><i class="fa-solid fa-phone"></i> +977 980-123-4567</p><p><i class="fa-solid fa-location-dot"></i> Kathmandu, Nepal</p></div>
+        </div>
+        <div class="footer-bottom">&copy; 2026 BDMS — Blood Donation Management System. Made for Nepal.</div>
+    </footer>
+</body>
+</html>
